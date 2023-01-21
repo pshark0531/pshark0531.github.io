@@ -1,12 +1,12 @@
 .bgcolor {
     background-color : black;
     background-size : cover;
-    height : 250px;
+    height : 500px;
     width : 100%;
 }
 
 h1 {
     text-align : center;
     color : white;
-    font-family : 'Jeju Godthic', cursive;
+    font-family: 'Gothic A1', sans-serif;
 }
