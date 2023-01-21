@@ -5,6 +5,12 @@
     width : 100%;
 }
 
+.inner-text{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+}
+
 p {
     color : white;
     font-family: 'Gothic A1', sans-serif;
