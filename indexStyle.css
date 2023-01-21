@@ -1,13 +1,13 @@
 .bgcolor {
     background-color : black;
     background-size : cover;
-    height : 250px;
+    height : 400px;
     width : 100%;
 }
 
 #title{
     text-align: center;
-    line-height: 250px;
+    line-height: 400px;
 }
 
 p {
