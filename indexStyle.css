@@ -1,20 +1,8 @@
-body {
-  background-color: white;
-  color: navy;
-}
-a:link {
-  color: #ff0055;
-  text-decoration: none; /* 링크의 밑줄을 없앤다. 이는 body 태그의 자체 속성으로는 불가능하다. */
-}
-a:visited {
-  color: #5500ff;
-  text-decoration: none;
-}
-a:active {
-  color: #ff00ff;
-  text-decoration: none;
-}
-a:hover {
-  color: #0055ff;
-  text-decoration: underline;
+.bgcolor {
+    background-color : black;
+    background-size : cover;
+    height : 100px;
+    width : 100%;
+    text-align : center;
+    color : white;
 }
