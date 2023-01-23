@@ -37,16 +37,16 @@ h4 {
 .modalArea {
     background-color: white;
     width: 100vw;
-    height: 13vw;
+    height: 10vw;
 }
 
 .buttonStyle {
     display: inline-block;
-    font-size: 12vw;
-    border-radius: 1.5vw;
-    margin-left: 5vw;
-    margin-right: 5vw;
-    box-shadow: 0 1vw 2vw rgba(0, 0, 0, 0.2);
+    font-size: 9.6vw;
+    border-radius: 1.2vw;
+    margin-left: 6vw;
+    margin-right: 6vw;
+    box-shadow: 0 0.8vw 1.6vw rgba(0, 0, 0, 0.2);
     font-weight: 600;
     background: linear-gradient(-45deg, #33ccff 0%, #ff99cc 100%);
     color: white;
@@ -58,7 +58,7 @@ h4 {
 }
 
 .buttonStyle:hover {
-    letter-spacing: 2px;
+    letter-spacing: 0.1vw;
     transform: scale(1.2);
     cursor: pointer;
 }
@@ -80,8 +80,8 @@ h4 {
     display: flex;
     position: fixed;
     z-index: 10;
-    width: 52.5vw;
-    height: 52.5vw;
+    width: 48vw;
+    height: 48vw;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
@@ -90,8 +90,8 @@ h4 {
 .modal-inner {
     background-color: white;
     border-radius: 0.75vw;
-    width: 52.5vw;
-    height: 52.5vw;
+    width: 48vw;
+    height: 48vw;
     padding: 3vw;
     position: fixed;
     top: 50%;
