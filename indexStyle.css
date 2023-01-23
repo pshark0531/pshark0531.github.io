@@ -12,7 +12,13 @@ h4 {
 }
 
 @media (max-width: 1000px) {
-  .noMobile {
+  .Mobile {
+    display: none;
+  }
+}
+
+@media (min-width: 1000px) {
+  .Desktop {
     display: none;
   }
 }
