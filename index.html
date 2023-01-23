@@ -3,17 +3,39 @@
 <html>
     <head>
         <link rel="stylesheet" href="indexStyle.css" type="text/css">
-        <script src="//unpkg.com/alpinejs" defer></script>
+        <script defer src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js"></script>
         <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Gothic+A1:wght@600&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="/board/css/mediaquery.css">
         <title>이수현 굉장하다</title>
     </head>
     <body>
-        <p id=title style="font-size:150px; color:white">이수현 굉장하다</p>
-        <div class="main">
-            
+        <div class="textArea">
+            <p id=title style="font-size:7.5rem">엄청나다 html</p>
+        </div>
+        <div class="modalArea">
+            <div x-data="{ modalOpen1: false }">
+                <button x-on:click="modalOpen1 = true" class="buttonStyle">버튼</button>
+                <div class="modal"
+                    role="dialog"
+                    tabindex="-1"
+                    x-show="modalOpen1"
+                    x-on:click.away="modalOpen1 = false"
+                    x-cloak
+                    x-transition
+                >
+                    <div class="modal-inner">
+                        <p>modal</p>
+                    </div>
+                </div>
+                <div class="overlay" x-show="modalOpen1" x-cloak></div>
+            </div>
+        </div>
+        <div class="textArea">
+            <h3>sns</h3>
         </div>
     </body>
 </html>
