@@ -5,7 +5,7 @@
         <link rel="stylesheet" href="indexStyle.css" type="text/css">
         <script defer src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js"></script>
         <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="viewport" content="width=device-width, initial-scale = 1, maximum-scale = 1, user-scalabel = no">
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Gothic+A1:wght@600&display=swap" rel="stylesheet">
@@ -16,12 +16,12 @@
         <div class="textArea">
             <p id=title style="font-size:11.25vw">이수현 굉장하다</p>
         </div>
-        <div class="modalArea" style=""></div>
+        <div class="modalArea"></div>
         <div class="modalArea" style="text-align: center">
             <div x-data="{ modalOpen1: false }">
                 <div x-data="{ modalOpen2: false }">
-                    <button x-on:click="modalOpen1 = true" class="buttonStyleLeft">프로필</button>
-                    <button x-on:click="modalOpen2 = true" class="buttonStyleRight">세글자</button>
+                    <button x-on:click="modalOpen1 = true" class="buttonStyle">프로필</button>
+                    <button x-on:click="modalOpen2 = true" class="buttonStyle">세글자</button>
                     <div class="modal"
                         role="dialog"
                         tabindex="-1"
@@ -49,7 +49,7 @@
                 </div>
             </div>
         </div>
-        <div class="modalArea" style=""></div>
+        <div class="modalArea"></div>
         <div class="textArea">
             <h4>방문해주셔서 감사합니다<br>
                 AKMU이수현 팬페이지입니다<br>

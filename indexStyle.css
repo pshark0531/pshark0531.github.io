@@ -11,6 +11,12 @@ h4 {
     opacity: 0.5;
 }
 
+@media (max-width: 1000px) {
+  .noMobile {
+    display: none;
+  }
+}
+
 #title {
     text-align: center;
     line-height: 7.5vw;
@@ -28,22 +34,40 @@ h4 {
     height: 13vw;
 }
 
-.buttonStyleLeft {
+.buttonStyle {
     display: inline-block;
     font-size: 12vw;
-    background-color: gray;
-    color: black;
-    margin-right: 5vw;
     border-radius: 1.5vw;
+    margin-left: 5vw;
+    margin-right: 5vw;
+    box-shadow: 0 1vw 2vw rgba(0, 0, 0, 0.2);
+    font-weight: 600;
+    background: linear-gradient(-45deg, #33ccff 0%, #ff99cc 100%);
+    color: white;
+    text-decoration: none;
+    border: none;
+    transition: 0.25s;
+    background-size: 400% 400%;
+    animation: gradient1 5s ease infinite;
 }
 
-.buttonStyleRight {
-    display: inline-block;
-    font-size: 12vw;
-    background-color: gray;
-    color: black;
-    margin-left: 5vw;
-    border-radius: 1.5vw;
+.buttonStyle:hover {
+    letter-spacing: 2px;
+    transform: scale(1.2);
+    cursor: pointer;
+}
+
+
+@keyframes gradient1 {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
 }
 
 .modal {
