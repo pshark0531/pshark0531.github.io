@@ -11,13 +11,13 @@ h4 {
     opacity: 0.5;
 }
 
-@media (max-width: 1000px) {
+@media (min-width: 1000px) {
   .Mobile {
     display: none;
   }
 }
 
-@media (min-width: 1000px) {
+@media (max-width: 1000px) {
   .Desktop {
     display: none;
   }
