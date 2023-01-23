@@ -50,7 +50,7 @@ h4 {
     background-color: white;
     color: black;
     display: inline-block;
-    margin-right: 10rem;
+    margin-right: 1rem;
     border-radius: 1rem;
     font-size: 5rem;
 }
@@ -59,7 +59,7 @@ h4 {
     background-color: white;
     color: black;
     display: inline-block;
-    margin-left: 10rem;
+    margin-left: 1rem;
     border-radius: 1rem;
     font-size: 5rem;
 }
