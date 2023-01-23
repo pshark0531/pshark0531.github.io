@@ -43,25 +43,25 @@ h4 {
 .modalArea {
     background-color: white;
     width: 100vw;
-    height: 6rem;
+    height: 8rem;
 }
 
 .buttonStyleLeft {
-    background-color: white;
+    background-color: gray;
     color: black;
     display: inline-block;
     margin-right: 3rem;
     border-radius: 1rem;
-    font-size: 5rem;
+    font-size: 8rem;
 }
 
 .buttonStyleRight {
-    background-color: white;
+    background-color: gray;
     color: black;
     display: inline-block;
     margin-left: 3rem;
     border-radius: 1rem;
-    font-size: 5rem;
+    font-size: 8rem;
 }
 
 .modal {
