@@ -16,24 +16,40 @@
         <div class="textArea">
             <p id=title style="font-size:7.5rem">이수현 굉장하다</p>
         </div>
-        <div class="modalArea">
+        <div class="modalArea" style=""></div>
+        <div class="modalArea" style="text-align: center">
             <div x-data="{ modalOpen1: false }">
-                <button x-on:click="modalOpen1 = true" class="buttonStyle">버튼</button>
-                <div class="modal"
-                    role="dialog"
-                    tabindex="-1"
-                    x-show="modalOpen1"
-                    x-on:click.away="modalOpen1 = false"
-                    x-cloak
-                    x-transition
-                >
-                    <div class="modal-inner">
-                        <p>modal</p>
+                <div x-data="{ modalOpen2: false }">
+                    <button x-on:click="modalOpen1 = true" class="buttonStyleLeft">버튼</button>
+                    <button x-on:click="modalOpen2 = true" class="buttonStyleRight">버튼1</button>
+                    <div class="modal"
+                        role="dialog"
+                        tabindex="-1"
+                        x-show="modalOpen1"
+                        x-on:click.away="modalOpen1 = false"
+                        x-cloak
+                        x-transition>
+                        <div class="modal-inner">
+                            <p>modal</p>
+                        </div>
                     </div>
+                    <div class="modal"
+                        role="dialog"
+                        tabindex="-1"
+                        x-show="modalOpen2"
+                        x-on:click.away="modalOpen2 = false"
+                        x-cloak
+                        x-transition>
+                        <div class="modal-inner">
+                            <p>modal2</p>
+                        </div>
+                    </div>
+                    <div class="overlay" x-show="modalOpen1" x-cloak></div>
+                    <div class="overlay" x-show="modalOpen2" x-cloak></div>
                 </div>
-                <div class="overlay" x-show="modalOpen1" x-cloak></div>
             </div>
         </div>
+        <div class="modalArea" style=""></div>
         <div class="textArea">
             <h4>방문해주셔서 감사합니다<br>
                 AKMU이수현 팬페이지입니다<br>
