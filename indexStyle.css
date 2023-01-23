@@ -5,71 +5,53 @@ body {
 }
 
 h4 {
-    font-size: 1rem;
-    margin-top: 5rem;
-    margin-left: 5rem;
+    font-size: 1.5vw;
+    margin-top: 7.5vw;
+    margin-left: 7vw;
     opacity: 0.5;
-}
-
-@media all and (min-width: 1024px) {
-    html {
-        font-size: 20px;
-    }
-}
-
-@media all and (min-width: 768px) and (max-width: 1023px) {
-    html {
-        font-size: 12px;
-    }
-}
-
-@media all and (max-width:767px) {
-    html {
-        font-size: 6px;
-    }
 }
 
 #title {
     text-align: center;
-    line-height: 5rem;
+    line-height: 7.5vw;
 }
 
 .textArea {
     width: 100vw;
-    height: 11rem;
+    height: 16.5vw;
     color: white;
 }
 
 .modalArea {
     background-color: white;
     width: 100vw;
-    height: 8rem;
+    height: 13vw;
 }
 
 .buttonStyleLeft {
+    display: inline-block;
+    font-size: 12vw;
     background-color: gray;
     color: black;
-    display: inline-block;
-    margin-right: 3rem;
-    border-radius: 1rem;
-    font-size: 8rem;
+    margin-right: 4.5vw;
+    border-radius: 1.5vw;
 }
 
 .buttonStyleRight {
+    display: inline-block;
+    font-size: 12vw;
     background-color: gray;
     color: black;
-    display: inline-block;
-    margin-left: 3rem;
-    border-radius: 1rem;
-    font-size: 8rem;
+    margin-left: 4.5vw;
+    border-radius: 1.5vw;
 }
 
 .modal {
     display: flex;
     position: fixed;
     z-index: 10;
-    width: 35rem;
-    height: 35rem;
+    width: 52.5vw;
+    height: 52.5vw;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
@@ -77,10 +59,10 @@ h4 {
 
 .modal-inner {
     background-color: white;
-    border-radius: 0.5rem;
-    width: 35rem;
-    height: 35rem;
-    padding: 2rem;
+    border-radius: 0.75vw;
+    width: 52.5vw;
+    height: 52.5vw;
+    padding: 3vw;
     position: fixed;
     top: 50%;
     left: 50%;
