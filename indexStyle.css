@@ -36,6 +36,7 @@ a {
 
 #title {
     text-align: center;
+    margin-left: -4vw;
     line-height: 7.5vw;
 }
 
@@ -48,7 +49,7 @@ a {
 .modalArea {
     background-color: white;
     width: 100vw;
-    height: 10vw;
+    height: 12vw;
 }
 
 .buttonStyle {
@@ -59,11 +60,11 @@ a {
     margin-right: 6vw;
     box-shadow: 0 0.8vw 1.6vw rgba(0, 0, 0, 0.2);
     font-weight: 600;
-    background: linear-gradient(-45deg, #33ccff 0%, #ff99cc 100%);
     color: white;
     text-decoration: none;
     border: none;
     transition: 0.25s;
+    background: linear-gradient(-45deg, #33ccff 0%, #ff99cc 100%);
     background-size: 400% 400%;
     animation: gradient1 5s ease infinite;
 }
@@ -73,7 +74,6 @@ a {
     transform: scale(1.2);
     cursor: pointer;
 }
-
 
 @keyframes gradient1 {
     0% {
@@ -122,4 +122,123 @@ a {
     left: 0;
     background: black;
     opacity: 0.75;
+}
+
+/*별자리*/
+.αTaurus {
+    font-size: 6vw;
+    color: #CCFFFF;
+    position: fixed;
+    top: 50.5%;
+    left: 37.5%;
+    filter: blur(2vw);
+    -webkit-filter: blur(0.5vw);
+    text-shadow: 0 0 0.3vw #FFFFFF, 0 0 0.5vw #FFFFFF, 0 0 1.4vw #FFFFFF, 0 0 2.4vw #CCFFFF, 0 0 3.2vw #CCFFFF, 0 0 4vw #CCFFFF, 0 0 4.5vw #CCFFFF, 0 0 5.2vw #CCFFFF;
+    animation: flicker 5s ease infinite;
+}
+
+.ßTaurus {
+    font-size: 5vw;
+    color: #CCFFFF;
+    position: fixed;
+    top: 10.5%;
+    left: 16.5%;
+    filter: blur(vw);
+    -webkit-filter: blur(0.5vw);
+    text-shadow: 0 0 0.3vw #FFFFFF, 0 0 0.5vw #FFFFFF, 0 0 1.4vw #FFFFFF, 0 0 2.4vw #CCFFFF, 0 0 3.2vw #CCFFFF, 0 0 4vw #CCFFFF, 0 0 4.5vw #CCFFFF, 0 0 5.2vw #CCFFFF;
+    animation: flicker 5s ease infinite;
+}
+
+.γTaurus {
+    font-size: 4vw;
+    color: #CCFFFF;
+    position: fixed;
+    top: 55%;
+    left: 55%;
+    filter: blur(vw);
+    -webkit-filter: blur(0.5vw);
+    text-shadow: 0 0 0.3vw #FFFFFF, 0 0 0.5vw #FFFFFF, 0 0 1.4vw #FFFFFF, 0 0 2.4vw #CCFFFF, 0 0 3.2vw #CCFFFF, 0 0 4vw #CCFFFF, 0 0 4.5vw #CCFFFF, 0 0 5.2vw #CCFFFF;
+    animation: flicker 5s ease infinite;
+}
+
+.∂Taurus {
+    font-size: 4vw;
+    color: #CCFFFF;
+    position: fixed;
+    top: 48%;
+    left: 54%;
+    filter: blur(vw);
+    -webkit-filter: blur(0.5vw);
+    text-shadow: 0 0 0.3vw #FFFFFF, 0 0 0.5vw #FFFFFF, 0 0 1.4vw #FFFFFF, 0 0 2.4vw #CCFFFF, 0 0 3.2vw #CCFFFF, 0 0 4vw #CCFFFF, 0 0 4.5vw #CCFFFF, 0 0 5.2vw #CCFFFF;
+    animation: flicker 5s ease infinite;
+}
+
+.εTaurus {
+    font-size: 3.2vw;
+    color: #CCFFFF;
+    position: fixed;
+    top: 41%;
+    left: 51%;
+    filter: blur(vw);
+    -webkit-filter: blur(0.5vw);
+    text-shadow: 0 0 0.3vw #FFFFFF, 0 0 0.5vw #FFFFFF, 0 0 1.4vw #FFFFFF, 0 0 2.4vw #CCFFFF, 0 0 3.2vw #CCFFFF, 0 0 4vw #CCFFFF, 0 0 4.5vw #CCFFFF, 0 0 5.2vw #CCFFFF;
+    animation: flicker 5s ease infinite;
+}
+
+.λTaurus {
+    font-size: 3.2vw;
+    color: #CCFFFF;
+    position: fixed;
+    top: 64%;
+    left: 67%;
+    filter: blur(vw);
+    -webkit-filter: blur(0.5vw);
+    text-shadow: 0 0 0.3vw #FFFFFF, 0 0 0.5vw #FFFFFF, 0 0 1.4vw #FFFFFF, 0 0 2.4vw #CCFFFF, 0 0 3.2vw #CCFFFF, 0 0 4vw #CCFFFF, 0 0 4.5vw #CCFFFF, 0 0 5.2vw #CCFFFF;
+    animation: flicker 5s ease infinite;
+}
+
+.ζTaurus {
+    font-size: 4vw;
+    color: #CCFFFF;
+    position: fixed;
+    top: 35%;
+    left: 9.5%;
+    filter: blur(vw);
+    -webkit-filter: blur(0.5vw);
+    text-shadow: 0 0 0.3vw #FFFFFF, 0 0 0.5vw #FFFFFF, 0 0 1.4vw #FFFFFF, 0 0 2.4vw #CCFFFF, 0 0 3.2vw #CCFFFF, 0 0 4vw #CCFFFF, 0 0 4.5vw #CCFFFF, 0 0 5.2vw #CCFFFF;
+    animation: flicker 5s ease infinite;
+}
+
+.θTaurus {
+    font-size: 3.6vw;
+    color: #CCFFFF;
+    position: fixed;
+    top: 57%;
+    left: 47.5%;
+    filter: blur(vw);
+    -webkit-filter: blur(0.5vw);
+    text-shadow: 0 0 0.3vw #FFFFFF, 0 0 0.5vw #FFFFFF, 0 0 1.4vw #FFFFFF, 0 0 2.4vw #CCFFFF, 0 0 3.2vw #CCFFFF, 0 0 4vw #CCFFFF, 0 0 4.5vw #CCFFFF, 0 0 5.2vw #CCFFFF;
+    animation: flicker 5s ease infinite;
+}
+
+.ξTaurus {
+    font-size: 4vw;
+    color: #CCFFFF;
+    position: fixed;
+    top: 71.5%;
+    left: 87%;
+    filter: blur(vw);
+    -webkit-filter: blur(0.5vw);
+    text-shadow: 0 0 0.3vw #FFFFFF, 0 0 0.5vw #FFFFFF, 0 0 1.4vw #FFFFFF, 0 0 2.4vw #CCFFFF, 0 0 3.2vw #CCFFFF, 0 0 4vw #CCFFFF, 0 0 4.5vw #CCFFFF, 0 0 5.2vw #CCFFFF;
+    animation: flicker 5s ease infinite;
+}
+
+@keyframes flicker {
+    0%,
+    100% {
+        text-shadow: 0 0 7px #FFFFFF, 0 0 1vw #FFFFFF, 0 0 2vw #FFFFFF, 0 0 3vw #CCFFFF, 0 0 4vw #CCFFFF, 0 0 5vw #CCFFFF, 0 0 6vw #CCFFFF, 0 0 7vw #CCFFFF;
+    }
+    50% {
+        text-shadow: none;
+    }
 }

@@ -5,7 +5,7 @@
         <link rel="stylesheet" href="indexStyle.css" type="text/css">
         <script defer src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js"></script>
         <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale = 1, maximum-scale = 1, user-scalabel = no">
+        <meta name="viewport" content="width=device-width, initial-scale = 1, maximum-scale = 1, minimum-scale = 1, user-scalable = no">
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Gothic+A1:wght@600&display=swap" rel="stylesheet">
@@ -15,9 +15,10 @@
     <body>
         <div class="Mobile">
             <div class="textArea">
-                <p id=title style="font-size:11.25vw">이수현 굉장하다</p>
+                <p id=title style="font-size: 11.25vw">이수현 굉장하다</p>
             </div>
             <div class="modalArea"></div>
+<!--프로필, 별자리-->
             <div class="modalArea" style="text-align: center">
                 <div x-data="{ modalOpen1: false }">
                     <div x-data="{ modalOpen2: false }">
@@ -53,8 +54,17 @@
                             x-on:click.away="modalOpen2 = false"
                             x-cloak
                             x-transition>
-                            <div class="modal-inner">
-                                <img src="image/taurus" alt="황소자리 이미지"></img>
+                            <div class="modal-inner" style="background-color: #000033">
+                                <h1 style="color: white; opacity: 0.6"><br><br><br><br><br><br><br><br><br><br><br><br><br><br>황소자리 / TAURUS</h1>
+                                <div class="αTaurus">+</div>
+                                <div class="ßTaurus">+</div>
+                                <div class="γTaurus">+</div>
+                                <div class="∂Taurus">+</div>
+                                <div class="εTaurus">+</div>
+                                <div class="λTaurus">+</div>
+                                <div class="ζTaurus">+</div>
+                                <div class="θTaurus">+</div>
+                                <div class="ξTaurus">+</div>
                             </div>
                         </div>
                         <div class="overlay" x-show="modalOpen1" x-cloak></div>
@@ -63,6 +73,7 @@
                 </div>
             </div>
             <div class="modalArea"></div>
+<!--뭐를만, 들까요-->
             <div class="modalArea" style="text-align: center">
                 <div x-data="{ modalOpen1: false }">
                     <div x-data="{ modalOpen2: false }">
@@ -98,7 +109,6 @@
                 </div>
             </div>
             <div class="modalArea"></div>
-            <div class="textArea">
             <div class="textArea">
                 <h4>방문해주셔서 감사합니다<br>
                     AKMU이수현 팬페이지입니다<br>
