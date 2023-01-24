@@ -22,7 +22,7 @@
                 <div x-data="{ modalOpen1: false }">
                     <div x-data="{ modalOpen2: false }">
                         <button x-on:click="modalOpen1 = true" class="buttonStyle">프로필</button>
-                        <button x-on:click="modalOpen2 = true" class="buttonStyle">세글자</button>
+                        <button x-on:click="modalOpen2 = true" class="buttonStyle">별자리</button>
                         <div class="modal"
                             role="dialog"
                             tabindex="-1"
@@ -31,7 +31,19 @@
                             x-cloak
                             x-transition>
                             <div class="modal-inner">
-                                <p>modal</p>
+                                <p>
+                                    이름: 이수현(LEE SUHYUN)<br>
+                                    출생: 1994.05.04<br>
+                                    출신: 대한민국 의정부시<br>
+                                    신장: 165cm<br>
+                                    데뷔: 2014.04.07<br>
+                                    소속: AKMU<br>
+                                    종교: 개신교<br>
+                                    MBTI: ISFP<br>
+                                    반려동물: 쪼메<br>
+                                    <a href="https://www.instagram.com/akmu_suhyun/">Instagram</a><br>
+                                    <a href="https://www.youtube.com/channel/UCOiM8FuCUFJkuUjCmB14rgg">Youtube</a>
+                                </p>
                             </div>
                         </div>
                         <div class="modal"
@@ -42,7 +54,42 @@
                             x-cloak
                             x-transition>
                             <div class="modal-inner">
-                                <p>modal2</p>
+                                <img src="image/taurus" alt="황소자리 이미지"></img>
+                            </div>
+                        </div>
+                        <div class="overlay" x-show="modalOpen1" x-cloak></div>
+                        <div class="overlay" x-show="modalOpen2" x-cloak></div>
+                    </div>
+                </div>
+            </div>
+            <div class="modalArea"></div>
+            <div class="modalArea" style="text-align: center">
+                <div x-data="{ modalOpen1: false }">
+                    <div x-data="{ modalOpen2: false }">
+                        <button x-on:click="modalOpen1 = true" class="buttonStyle">뭐를만</button>
+                        <button x-on:click="modalOpen2 = true" class="buttonStyle">들까요</button>
+                        <div class="modal"
+                            role="dialog"
+                            tabindex="-1"
+                            x-show="modalOpen1"
+                            x-on:click.away="modalOpen1 = false"
+                            x-cloak
+                            x-transition>
+                            <div class="modal-inner">
+                                <p>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="modal"
+                            role="dialog"
+                            tabindex="-1"
+                            x-show="modalOpen2"
+                            x-on:click.away="modalOpen2 = false"
+                            x-cloak
+                            x-transition>
+                            <div class="modal-inner">
+                                <p>
+                                </p>
                             </div>
                         </div>
                         <div class="overlay" x-show="modalOpen1" x-cloak></div>
@@ -52,11 +99,12 @@
             </div>
             <div class="modalArea"></div>
             <div class="textArea">
+            <div class="textArea">
                 <h4>방문해주셔서 감사합니다<br>
                     AKMU이수현 팬페이지입니다<br>
                     원하는 기능을 아래 메일로 보내주세요<br>
                     psh0531du@me.com<br>
-                    AKMU 본인등판시 무조건 기능추가합니다
+                    이수현 본인등판시 무조건 기능추가합니다
                 </h4>
             </div>
         </div>
