@@ -1,90 +1,18 @@
 body {
-    background-color: black;
     font-family: 'Gothic A1', sans-serif;
     margin: 0;
 }
 
-h4 {
-    font-size: 1.5vw;
-    margin-top: 7.5vw;
-    margin-left: 7vw;
-    opacity: 0.5;
-}
-
-p {
-    font-size: 3vw;
-    text-align: left;
-    padding-left: 3.5vw;
-}
-
-a {
-    font-size: 3vw;
-    text-decoration: none;
-}
-
 @media (max-width: 1000px) {
-  .Mobile {
+  .No-Mobile {
     display: none;
   }
 }
 
 @media (min-width: 1000px) {
-  .Desktop {
+  .No-Desktop {
     display: none;
   }
-}
-
-#title {
-    text-align: center;
-    margin-left: -4vw;
-    line-height: 7.5vw;
-}
-
-.textArea {
-    width: 100vw;
-    height: 16.5vw;
-    color: white;
-}
-
-.modalArea {
-    background-color: white;
-    width: 100vw;
-    height: 12vw;
-}
-
-.buttonStyle {
-    display: inline-block;
-    font-size: 9.6vw;
-    border-radius: 1.2vw;
-    margin-left: 6vw;
-    margin-right: 6vw;
-    box-shadow: 0 0.8vw 1.6vw rgba(0, 0, 0, 0.2);
-    font-weight: 600;
-    color: white;
-    text-decoration: none;
-    border: none;
-    transition: 0.25s;
-    background: linear-gradient(-45deg, #33ccff 0%, #ff99cc 100%);
-    background-size: 400% 400%;
-    animation: gradient1 5s ease infinite;
-}
-
-.buttonStyle:hover {
-    letter-spacing: 0.1vw;
-    transform: scale(1.2);
-    cursor: pointer;
-}
-
-@keyframes gradient1 {
-    0% {
-        background-position: 0% 50%;
-    }
-    50% {
-        background-position: 100% 50%;
-    }
-    100% {
-        background-position: 0% 50%;
-    }
 }
 
 .modal {
@@ -110,10 +38,6 @@ a {
     transform: translate(-50%, -50%);
 }
 
-[x-cloak] {
-    display: none !important;
-}
-
 .overlay {
     width: 100%;
     height: 100%;
@@ -122,6 +46,10 @@ a {
     left: 0;
     background: black;
     opacity: 0.75;
+}
+
+[x-cloak] {
+    display: none !important;
 }
 
 /*별자리*/
@@ -137,6 +65,10 @@ a {
     animation: flicker 5s ease infinite;
 }
 
+.αArea {
+    
+}
+
 .ßTaurus {
     font-size: 5vw;
     color: #CCFFFF;
@@ -147,6 +79,10 @@ a {
     -webkit-filter: blur(0.5vw);
     text-shadow: 0 0 0.3vw #FFFFFF, 0 0 0.5vw #FFFFFF, 0 0 1.4vw #FFFFFF, 0 0 2.4vw #CCFFFF, 0 0 3.2vw #CCFFFF, 0 0 4vw #CCFFFF, 0 0 4.5vw #CCFFFF, 0 0 5.2vw #CCFFFF;
     animation: flicker 5s ease infinite;
+}
+
+.ßArea {
+    
 }
 
 .γTaurus {
@@ -161,6 +97,10 @@ a {
     animation: flicker 5s ease infinite;
 }
 
+.γArea {
+    
+}
+
 .∂Taurus {
     font-size: 4vw;
     color: #CCFFFF;
@@ -171,6 +111,10 @@ a {
     -webkit-filter: blur(0.5vw);
     text-shadow: 0 0 0.3vw #FFFFFF, 0 0 0.5vw #FFFFFF, 0 0 1.4vw #FFFFFF, 0 0 2.4vw #CCFFFF, 0 0 3.2vw #CCFFFF, 0 0 4vw #CCFFFF, 0 0 4.5vw #CCFFFF, 0 0 5.2vw #CCFFFF;
     animation: flicker 5s ease infinite;
+}
+
+.∂Area {
+    
 }
 
 .εTaurus {
@@ -185,6 +129,10 @@ a {
     animation: flicker 5s ease infinite;
 }
 
+.εArea {
+    
+}
+
 .λTaurus {
     font-size: 3.2vw;
     color: #CCFFFF;
@@ -195,6 +143,10 @@ a {
     -webkit-filter: blur(0.5vw);
     text-shadow: 0 0 0.3vw #FFFFFF, 0 0 0.5vw #FFFFFF, 0 0 1.4vw #FFFFFF, 0 0 2.4vw #CCFFFF, 0 0 3.2vw #CCFFFF, 0 0 4vw #CCFFFF, 0 0 4.5vw #CCFFFF, 0 0 5.2vw #CCFFFF;
     animation: flicker 5s ease infinite;
+}
+
+.λArea {
+    
 }
 
 .ζTaurus {
@@ -209,6 +161,10 @@ a {
     animation: flicker 5s ease infinite;
 }
 
+.ζArea {
+    
+}
+
 .θTaurus {
     font-size: 3.6vw;
     color: #CCFFFF;
@@ -221,6 +177,10 @@ a {
     animation: flicker 5s ease infinite;
 }
 
+.θArea {
+    
+}
+
 .ξTaurus {
     font-size: 4vw;
     color: #CCFFFF;
@@ -231,6 +191,10 @@ a {
     -webkit-filter: blur(0.5vw);
     text-shadow: 0 0 0.3vw #FFFFFF, 0 0 0.5vw #FFFFFF, 0 0 1.4vw #FFFFFF, 0 0 2.4vw #CCFFFF, 0 0 3.2vw #CCFFFF, 0 0 4vw #CCFFFF, 0 0 4.5vw #CCFFFF, 0 0 5.2vw #CCFFFF;
     animation: flicker 5s ease infinite;
+}
+
+.ξArea {
+    
 }
 
 @keyframes flicker {
