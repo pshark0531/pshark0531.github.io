@@ -3,206 +3,22 @@ body {
     margin: 0;
 }
 
-@media (max-width: 1000px) {
-  .No-Mobile {
-    display: none;
-  }
-}
-
-@media (min-width: 1000px) {
-  .No-Desktop {
-    display: none;
-  }
-}
-
-.modal {
-    display: flex;
-    position: fixed;
-    z-index: 10;
-    width: 50vw;
-    height: 50vw;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-}
-
-.modal-inner {
+.firstPage {
     background-color: white;
-    border-radius: 0.75vw;
-    width: 48vw;
-    height: 48vw;
-    padding: 2vw;
+    color: black;
     position: fixed;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-}
-
-.overlay {
-    width: 100%;
-    height: 100%;
-    position: fixed;
-    top: 0;
-    left: 0;
-    background: black;
-    opacity: 0.75;
-}
-
-[x-cloak] {
-    display: none !important;
-}
-
-/*별자리*/
-.αTaurus {
-    font-size: 6vw;
-    color: #CCFFFF;
-    position: fixed;
-    top: 50.5%;
-    left: 37.5%;
-    filter: blur(2vw);
-    -webkit-filter: blur(0.5vw);
-    text-shadow: 0 0 0.3vw #FFFFFF, 0 0 0.5vw #FFFFFF, 0 0 1.4vw #FFFFFF, 0 0 2.4vw #CCFFFF, 0 0 3.2vw #CCFFFF, 0 0 4vw #CCFFFF, 0 0 4.5vw #CCFFFF, 0 0 5.2vw #CCFFFF;
-    animation: flicker 5s ease infinite;
-}
-
-.αArea {
-    
-}
-
-.ßTaurus {
-    font-size: 5vw;
-    color: #CCFFFF;
-    position: fixed;
-    top: 10.5%;
-    left: 16.5%;
-    filter: blur(vw);
-    -webkit-filter: blur(0.5vw);
-    text-shadow: 0 0 0.3vw #FFFFFF, 0 0 0.5vw #FFFFFF, 0 0 1.4vw #FFFFFF, 0 0 2.4vw #CCFFFF, 0 0 3.2vw #CCFFFF, 0 0 4vw #CCFFFF, 0 0 4.5vw #CCFFFF, 0 0 5.2vw #CCFFFF;
-    animation: flicker 5s ease infinite;
-}
-
-.ßArea {
-    
-}
-
-.γTaurus {
+    text-align: center;
     font-size: 4vw;
-    color: #CCFFFF;
+    width: 100vw;
+    height: 100vh;
+}
+
+.secondPage {
+    background-color: black;
+    color: white;
     position: fixed;
-    top: 55%;
-    left: 55%;
-    filter: blur(vw);
-    -webkit-filter: blur(0.5vw);
-    text-shadow: 0 0 0.3vw #FFFFFF, 0 0 0.5vw #FFFFFF, 0 0 1.4vw #FFFFFF, 0 0 2.4vw #CCFFFF, 0 0 3.2vw #CCFFFF, 0 0 4vw #CCFFFF, 0 0 4.5vw #CCFFFF, 0 0 5.2vw #CCFFFF;
-    animation: flicker 5s ease infinite;
-}
-
-.γArea {
-    
-}
-
-.∂Taurus {
+    text-align: center;
     font-size: 4vw;
-    color: #CCFFFF;
-    position: fixed;
-    top: 48%;
-    left: 54%;
-    filter: blur(vw);
-    -webkit-filter: blur(0.5vw);
-    text-shadow: 0 0 0.3vw #FFFFFF, 0 0 0.5vw #FFFFFF, 0 0 1.4vw #FFFFFF, 0 0 2.4vw #CCFFFF, 0 0 3.2vw #CCFFFF, 0 0 4vw #CCFFFF, 0 0 4.5vw #CCFFFF, 0 0 5.2vw #CCFFFF;
-    animation: flicker 5s ease infinite;
-}
-
-.∂Area {
-    
-}
-
-.εTaurus {
-    font-size: 3.2vw;
-    color: #CCFFFF;
-    position: fixed;
-    top: 41%;
-    left: 51%;
-    filter: blur(vw);
-    -webkit-filter: blur(0.5vw);
-    text-shadow: 0 0 0.3vw #FFFFFF, 0 0 0.5vw #FFFFFF, 0 0 1.4vw #FFFFFF, 0 0 2.4vw #CCFFFF, 0 0 3.2vw #CCFFFF, 0 0 4vw #CCFFFF, 0 0 4.5vw #CCFFFF, 0 0 5.2vw #CCFFFF;
-    animation: flicker 5s ease infinite;
-}
-
-.εArea {
-    
-}
-
-.λTaurus {
-    font-size: 3.2vw;
-    color: #CCFFFF;
-    position: fixed;
-    top: 64%;
-    left: 67%;
-    filter: blur(vw);
-    -webkit-filter: blur(0.5vw);
-    text-shadow: 0 0 0.3vw #FFFFFF, 0 0 0.5vw #FFFFFF, 0 0 1.4vw #FFFFFF, 0 0 2.4vw #CCFFFF, 0 0 3.2vw #CCFFFF, 0 0 4vw #CCFFFF, 0 0 4.5vw #CCFFFF, 0 0 5.2vw #CCFFFF;
-    animation: flicker 5s ease infinite;
-}
-
-.λArea {
-    
-}
-
-.ζTaurus {
-    font-size: 4vw;
-    color: #CCFFFF;
-    position: fixed;
-    top: 35%;
-    left: 9.5%;
-    filter: blur(vw);
-    -webkit-filter: blur(0.5vw);
-    text-shadow: 0 0 0.3vw #FFFFFF, 0 0 0.5vw #FFFFFF, 0 0 1.4vw #FFFFFF, 0 0 2.4vw #CCFFFF, 0 0 3.2vw #CCFFFF, 0 0 4vw #CCFFFF, 0 0 4.5vw #CCFFFF, 0 0 5.2vw #CCFFFF;
-    animation: flicker 5s ease infinite;
-}
-
-.ζArea {
-    
-}
-
-.θTaurus {
-    font-size: 3.6vw;
-    color: #CCFFFF;
-    position: fixed;
-    top: 57%;
-    left: 47.5%;
-    filter: blur(vw);
-    -webkit-filter: blur(0.5vw);
-    text-shadow: 0 0 0.3vw #FFFFFF, 0 0 0.5vw #FFFFFF, 0 0 1.4vw #FFFFFF, 0 0 2.4vw #CCFFFF, 0 0 3.2vw #CCFFFF, 0 0 4vw #CCFFFF, 0 0 4.5vw #CCFFFF, 0 0 5.2vw #CCFFFF;
-    animation: flicker 5s ease infinite;
-}
-
-.θArea {
-    
-}
-
-.ξTaurus {
-    font-size: 4vw;
-    color: #CCFFFF;
-    position: fixed;
-    top: 71.5%;
-    left: 87%;
-    filter: blur(vw);
-    -webkit-filter: blur(0.5vw);
-    text-shadow: 0 0 0.3vw #FFFFFF, 0 0 0.5vw #FFFFFF, 0 0 1.4vw #FFFFFF, 0 0 2.4vw #CCFFFF, 0 0 3.2vw #CCFFFF, 0 0 4vw #CCFFFF, 0 0 4.5vw #CCFFFF, 0 0 5.2vw #CCFFFF;
-    animation: flicker 5s ease infinite;
-}
-
-.ξArea {
-    
-}
-
-@keyframes flicker {
-    0%,
-    100% {
-        text-shadow: 0 0 7px #FFFFFF, 0 0 1vw #FFFFFF, 0 0 2vw #FFFFFF, 0 0 3vw #CCFFFF, 0 0 4vw #CCFFFF, 0 0 5vw #CCFFFF, 0 0 6vw #CCFFFF, 0 0 7vw #CCFFFF;
-    }
-    50% {
-        text-shadow: none;
-    }
+    width: 100vw;
+    height: 100vh;
 }
