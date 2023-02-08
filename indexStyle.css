@@ -10,14 +10,14 @@ p {
     margin: 40vh;
     padding: 0;
     text-align: center;
-    font-size: 10vh;
+    font-size: 15vh;
 }
 
 h5 {
-    margin: 2vh;
+    margin: 1vh;
     padding: 0;
-    text-align: left;
-    font-size: 2vh;
+    text-align: right;
+    font-size: 1vh;
 }
 
 .firstPage {
