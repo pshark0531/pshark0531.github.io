@@ -7,13 +7,20 @@ body {
 p {
     margin-top: 45vh;
     padding: 0;
+    text-align: center;
+}
+
+h5 {
+    margin-top: 39vh;
+    margin-left: 2vh;
+    padding: 0;
+    font-size: 2vh;
 }
 
 .firstPage {
     background-color: white;
     color: black;
     position: fixed;
-    text-align: center;
     font-size: 10vh;
     width: 100vw;
     height: 100vh;
@@ -23,7 +30,6 @@ p {
     background-color: black;
     color: white;
     position: fixed;
-    text-align: center;
     font-size: 10vh;
     width: 100vw;
     height: 100vh;
