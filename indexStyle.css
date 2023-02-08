@@ -4,7 +4,7 @@ body {
 }
 
 p {
-    margin-top: 47vh;
+    margin-top: 45vh;
 }
 
 .firstPage {
@@ -12,7 +12,7 @@ p {
     color: black;
     position: fixed;
     text-align: center;
-    font-size: 6vw;
+    font-size: 10vh;
     width: 100vw;
     height: 100vh;
 }
@@ -22,7 +22,7 @@ p {
     color: white;
     position: fixed;
     text-align: center;
-    font-size: 6vw;
+    font-size: 10vh;
     width: 100vw;
     height: 100vh;
 }
