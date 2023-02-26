@@ -1,3 +1,0 @@
-User-agent: *
-Allow: /
-Sitemap: https://pshark0531.github.io/sitemap.xml
