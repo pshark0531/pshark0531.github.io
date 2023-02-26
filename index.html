@@ -3,21 +3,281 @@
 <html>
     <head>
         <link rel="stylesheet" href="indexStyle.css" type="text/css">
+        <script defer src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js"></script>
         <meta charset="utf-8">
-        <meta http-equiv="refresh" content="1;url=index2.html">
         <meta name="viewport" content="width=device-width, initial-scale = 1, maximum-scale = 1, minimum-scale = 1, user-scalable = no">
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Gothic+A1:wght@600&display=swap" rel="stylesheet">
-        <meta name="naver-site-verification" content="580db83e69a3aa5f796535e874d0e83dc10f5196" />
-        <title>악뮤수현 팬페이지</title>
+        <link rel="stylesheet" href="/board/css/mediaquery.css">
+        <title></title>
     </head>
     <body>
-        <div class="firstPage">
-            <p>이수현</p>
-        </div>
-        <div class="email">
-            <h5 style="color: black">email: psh0531du@me.com</h5>
+<!--데스크탑-->
+        <div class="No-Mobile">
+            <div class="ground">
+                <img src="image/ground.gif" class="groundImage"></img>
+            </div>
+<!--시작모달-->
+            <div x-data="{ 'startModal': true }">
+                <div class="modal"
+                    role="dialog"
+                    tabindex="-1"
+                    x-show="startModal"
+                    x-on:click.away="startModal = false"
+                    x-cloak
+                    x-transition:enter="transition duration-200">
+                    <div class="modal-inner">
+                        <h1>
+                            요소를 클릭해보세요!<br><br>
+                        </h1>
+                    </div>
+                </div>
+                <div class="overlay" x-show="starModal" x-cloak></div>
+            </div>
+<!--알파-->
+            <div x-data="{ 'starModal': false }">
+                <div class="αArea">
+                    <a class="αTaurus" x-on:click="starModal=true">●</a>
+                    <div class="modal"
+                        role="dialog"
+                        tabindex="-1"
+                        x-show="starModal"
+                        x-on:click.away="starModal = false"
+                        x-cloak
+                        x-transition:enter="transition duration-200">
+                        <div class="modal-inner">
+                            <p><br><br><br>
+                                알파별, 알데바란입니다.<br>
+                                모든 별자리 통틀어 가장 밝습니다.<br>
+                                제작자가 보는 이수현같습니다.<br>
+                                밝게 빛나는 알데바란은<br>
+                                삶에 희망을 가져다 줍니다.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="overlay" x-show="starModal" x-cloak></div>
+                </div>
+            </div>
+<!--베타-->
+            <div x-data="{ 'starModal': false }">
+                <div class="ßArea">
+                    <a class="ßTaurus" x-on:click="starModal=true">●</a>
+                    <div class="modal"
+                        role="dialog"
+                        tabindex="-1"
+                        x-show="starModal"
+                        x-on:click.away="starModal = false"
+                        x-cloak
+                        x-transition:enter="transition duration-200">
+                        <div class="modal-inner">
+                            <p><br><br><br>
+                                베타별, 엘나스입니다.<br>
+                                황소자리에서 두번째로 밝습니다.<br>
+                                화학적으로 특이한 성질을 가집니다.<br>
+                                우주에는 특이한 성질이 많습니다.<br>
+                                개성있고 아름답습니다.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="overlay" x-show="starModal" x-cloak></div>
+                </div>
+            </div>
+<!--감마-->
+            <div x-data="{ 'starModal': false }">
+                <div class="γArea">
+                    <a class="γTaurus" x-on:click="starModal=true">●</a>
+                    <div class="modal"
+                        role="dialog"
+                        tabindex="-1"
+                        x-show="starModal"
+                        x-on:click.away="starModal = false"
+                        x-cloak
+                        x-transition:enter="transition duration-200">
+                        <div class="modal-inner">
+                            <p>감마</p>
+                        </div>
+                    </div>
+                    <div class="overlay" x-show="starModal" x-cloak></div>
+                </div>
+            </div>
+<!--델타-->
+            <div x-data="{ 'starModal': false }">
+                <div class="∂Area">
+                    <a class="∂Taurus" x-on:click="starModal=true">●</a>
+                    <div class="modal"
+                        role="dialog"
+                        tabindex="-1"
+                        x-show="starModal"
+                        x-on:click.away="starModal = false"
+                        x-cloak
+                        x-transition:enter="transition duration-200">
+                        <div class="modal-inner">
+                            <p>델타</p>
+                        </div>
+                    </div>
+                    <div class="overlay" x-show="starModal" x-cloak></div>
+                </div>
+            </div>
+<!--입실론-->
+            <div x-data="{ 'starModal': false }">
+                <div class="εArea">
+                    <a class="εTaurus" x-on:click="starModal=true">●</a>
+                    <div class="modal"
+                        role="dialog"
+                        tabindex="-1"
+                        x-show="starModal"
+                        x-on:click.away="starModal = false"
+                        x-cloak
+                        x-transition:enter="transition duration-200">
+                        <div class="modal-inner">
+                            <p>입실론</p>
+                        </div>
+                    </div>
+                    <div class="overlay" x-show="starModal" x-cloak></div>
+                </div>
+            </div>
+<!--람다-->
+            <div x-data="{ 'starModal': false }">
+                <div class="λArea">
+                    <a class="λTaurus" x-on:click="starModal=true">●</a>
+                    <div class="modal"
+                        role="dialog"
+                        tabindex="-1"
+                        x-show="starModal"
+                        x-on:click.away="starModal = false"
+                        x-cloak
+                        x-transition:enter="transition duration-200">
+                        <div class="modal-inner">
+                            <p>람다</p>
+                        </div>
+                    </div>
+                    <div class="overlay" x-show="starModal" x-cloak></div>
+                </div>
+            </div>
+<!--제타-->
+            <div x-data="{ 'starModal': false }">
+                <div class="ζArea">
+                    <a class="ζTaurus" x-on:click="starModal=true">●</a>
+                    <div class="modal"
+                        role="dialog"
+                        tabindex="-1"
+                        x-show="starModal"
+                        x-on:click.away="starModal = false"
+                        x-cloak
+                        x-transition:enter="transition duration-200">
+                        <div class="modal-inner">
+                            <p>제타</p>
+                        </div>
+                    </div>
+                    <div class="overlay" x-show="starModal" x-cloak></div>
+                </div>
+            </div>
+<!--쎄타-->
+            <div x-data="{ 'starModal': false }">
+                <div class="θArea">
+                    <a class="θTaurus" x-on:click="starModal=true">●</a>
+                    <div class="modal"
+                        role="dialog"
+                        tabindex="-1"
+                        x-show="starModal"
+                        x-on:click.away="starModal = false"
+                        x-cloak
+                        x-transition:enter="transition duration-200">
+                        <div class="modal-inner">
+                            <p>쎼타</p>
+                        </div>
+                    </div>
+                    <div class="overlay" x-show="starModal" x-cloak></div>
+                </div>
+            </div>
+<!--크시-->
+            <div x-data="{ 'starModal': false }">
+                <div class="ξArea">
+                    <a class="ξTaurus" x-on:click="starModal=true">●</a>
+                    <div class="modal"
+                        role="dialog"
+                        tabindex="-1"
+                        x-show="starModal"
+                        x-on:click.away="starModal = false"
+                        x-cloak
+                        x-transition:enter="transition duration-200">
+                        <div class="modal-inner">
+                            <p>크시</p>
+                        </div>
+                    </div>
+                    <div class="overlay" x-show="starModal" x-cloak></div>
+                </div>
+            </div>
+<!--배경-->
+            <div x-data="{ 'meModal': false }">
+                <button class="me" x-on:click="meModal=true"></button>
+                <div class="modal"
+                    role="dialog"
+                    tabindex="-1"
+                    x-show="meModal"
+                    x-on:click.away="meModal = false"
+                    x-cloak
+                    x-transition:enter="transition duration-200">
+                    <div class="modal-inner">
+                        <p><br><br><br>
+                            안녕하세요. 제작자입니다.<br>
+                            이수현 팬 웹사이트 입니다.<br>
+                            넣고싶은 내용, 기능을 보내주세요.<br>
+                            가능하면 만들어드립니다.<br>
+                            psh0531du@me.com
+                        </p>
+                    </div>
+                </div>
+                <div class="overlay" x-show="meModal" x-cloak></div>
+            </div>
+            
+            <div x-data="{ 'youModal': false }">
+                <button class="you" x-on:click="youModal=true"></button>
+                <div class="modal"
+                    role="dialog"
+                    tabindex="-1"
+                    x-show="youModal"
+                    x-on:click.away="youModal = false"
+                    x-cloak
+                    x-transition:enter="transition duration-200">
+                    <div class="modal-inner">
+                        <p><br><br><br>
+                            별을 보는 이수현입니다.<br>
+                            이수현의 별자리 입니다.<br>
+                            뒷모습이 행복해보입니다.<br>
+                            이걸 보는 당신의 모습도<br>
+                            행복하길 바랍니다.
+                        </p>
+                    </div>
+                </div>
+                <div class="overlay" x-show="youModal" x-cloak></div>
+            </div>
+            
+            <div x-data="{ 'fireModal': false }">
+                <button class="fire" x-on:click="fireModal=true"></button>
+                <div class="modal"
+                    role="dialog"
+                    tabindex="-1"
+                    x-show="fireModal"
+                    x-on:click.away="fireModal = false"
+                    x-cloak
+                    x-transition:enter="transition duration-200">
+                    <div class="modal-inner">
+                        <p><br><br><br>
+                            모닥불 입니다.<br>
+                            마음이 편해집니다.<br>
+                            배경 그리는게 힘들었습니다.<br>
+                            완성된 모닥불을 보니<br>
+                            마음이 편해집니다.
+                        </p>
+                    </div>
+                </div>
+                <div class="overlay" x-show="fireModal" x-cloak></div>
+            </div>
+<!--모바일-->
+        <div class="No-Desktop">
+            <p style="font-size: 6vw; text-align: center; color: white">데스크탑에서 접속해주세요</p>
         </div>
     </body>
 </html>
